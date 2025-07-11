@@ -11,10 +11,10 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 from sklearn.preprocessing import LabelEncoder
 
 # Load model, tokenizer, label encoder
-model = load_model("model.h5")
-with open("tokenizer.pkl", "rb") as f:
+model = load_model("model/model.h5")
+with open("model/tokenizer.pkl", "rb") as f:
     tokenizer = pickle.load(f)
-with open("label_encoder.pkl", "rb") as f:
+with open("model/label_encoder.pkl", "rb") as f:
     label_encoder = pickle.load(f)
 
 lemmatizer = WordNetLemmatizer()
