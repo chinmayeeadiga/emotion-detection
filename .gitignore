@@ -1,0 +1,11 @@
+venv/
+.venv/
+.gradio/
+__pycache__/
+*.py[cod]
+*.pkl
+*.h5
+.vscode/
+.DS_Store
+Thumbs.db
+emo/
