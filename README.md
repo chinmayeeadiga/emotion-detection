@@ -22,12 +22,12 @@ _____________________
 ---------------------
 
 ## Dataset
-- Dataset used: `dair-ai\emotion`
-- Dataset Link: https://huggingface.co/datasets/dair-ai/emotion
-- No. of Classes: 6
-- Train samples: 16k
-- Test Samples: 2k
-- Validation Samples: 2k
+- Dataset used: `dair-ai\emotion`  
+- Dataset Link: https://huggingface.co/datasets/dair-ai/emotion  
+- No. of Classes: 6  
+- Train samples: 16k  
+- Test Samples: 2k  
+- Validation Samples: 2k  
 
 ##  How to Run
 
